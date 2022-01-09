@@ -18,5 +18,5 @@ These three parameters together decide the speed and efficiency of a typist.
 
 # Try it out?
 
-https://ninadsutrave.github.io/typemaster/
+https://ninadsutrave.github.io/typemaster/    
 https://typemaster1234.netlify.app
