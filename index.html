@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee Shade" rel="stylesheet">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="icon" href="images/Laptop-clipart-transparent-1.png">
+    <title>Type Master</title>
+</head>
+<body id="page">
+
+    <div class="logo" onclick="switchMode()">Type Master</div> 
+
+    <div class="flexbox">
+        <div class="test">
+            Do you think you are a fast typer? Check your speed now!
+            <a onclick="window.scrollTo({ top: 700, behavior: 'smooth' })"><button class="btn">TYPE AWAY!</button></a>
+        </div>   
+        <img class="typewriter-image" src="images/typewriter.gif">
+    </div>
+
+    <div class="content" id="test_page">
+        <a id="test"></a>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <div class="modal-title">Results</div><button class="close" id="close-button" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img class="clipart" src="images/images__1_-removebg-preview.png">
+                <div class="score">
+                <div class="a">Speed:<div class="score" id="final-speed">50</div>WPM</div>
+                <div class="b">Accuracy:<div class="score" id="final-accuracy">80</div>%</div>
+                <div class="c">Error Rate:<div class="score" id="final-errorrate">5</div>%</div>
+                </div>
+            </div>
+        </div>
+        <h1>READY! SET! GO!</h1>
+        <div class="box">
+            <div class="text" id="display"><span class="start"></span></div>
+            <div class="accessories">
+            <div id="timer"><p id="seconds">60</p>SECONDS</div> 
+            <button class="restart" id="restart" onclick="restart()">RESTART</button>
+            </div>
+        </div>
+        <input type="text" id="enter-text" placeholder="Start typing here...">       
+    </div>
+    <div id="overlay"></div>
+
+    <div class="contact">
+        <div class="form">
+            <h2>Have any suggestions? Let me know!</h2>
+            <form action="https://formsubmit.co/9a2ad6fb62b20a2baaec98887f27b947" method="POST">
+                <input type="text" class="field" name="Name" placeholder="Your Name" required>
+                <input type="email" class="field" placeholder="Your Email" name="email" required>
+                <input type="text" class="field" placeholder="Message" name="message" required>
+                <input type="hidden" name="_next" value="https://typemaster1234.netlify.app">
+                <input type="hidden" name="_captcha" value="false"><br>
+                <button class="send" type="submit">SEND</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="dark.js"></script>
+</body>
+</html>
