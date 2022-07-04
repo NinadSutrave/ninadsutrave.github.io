@@ -20,7 +20,7 @@ These three parameters together decide the speed and efficiency of a typist.
 
 https://typemaster1234.netlify.app
 
-Make sure to drop me a comment when you do!
+Make sure to drop me a comment when you do! :)
 
 # License
 
