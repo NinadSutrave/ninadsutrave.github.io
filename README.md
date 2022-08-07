@@ -6,11 +6,14 @@ An easy to use website to gauge the user's typing speed, accuracy and error rate
 
 In order to get an in depth idea of the formulae used for this website please visit the following website: https://indiatyping.com/index.php/typing-tips/typing-speed-calculation-formula
 
-Typing Speed - Calculated in WPM (words per minute) after penalising only uncorrected errors
-Accuracy - Calculated as a percentage of correctness after penalising only uncorrected errors
-Error Rate - Calculated after taking into consideration both uncorrected and corrected errors
+**Typing Speed** - Calculated in WPM (words per minute) after penalising only uncorrected errors
 
-These three parameters together decide the speed and efficiency of a typist.
+**Accuracy** - Calculated as a percentage of correctness after penalising only uncorrected errors
+
+**Error Rate** - Calculated after taking into consideration both uncorrected and corrected errors
+
+
+These three parameters together form the best combination to determine the speed and efficiency of a typist.
 
 # Preview
 
