@@ -3,7 +3,7 @@
  */
 
 //API generating random quotes
-const random_text_api = 'http://api.quotable.io/random' 
+const random_text_api = 'https://zenquotes.io/api/random' 
 const displayElement = document.getElementById('display')
 const inputElement = document.getElementById('enter-text')
 
@@ -13,7 +13,7 @@ var flag = false
 function getText() {
     return fetch(random_text_api)
         .then(response => response.json())
-        .then(data => data.content)
+        .then(data => data.q)
 }
 
 async function getNext() {
