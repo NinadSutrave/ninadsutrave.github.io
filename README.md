@@ -27,4 +27,4 @@ Make sure to drop me a comment when you do! :)
 
 # License
 
-MIT © Ninad Sutrave
+MIT © [Ninad Sutrave](https://ninadsutrave.in)
